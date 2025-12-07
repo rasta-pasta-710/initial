@@ -48,6 +48,46 @@ npm run build
 
 The build artifacts will be stored in the `dist/` directory.
 
+## 🚀 Deployment
+
+This project is configured for deployment on Vercel.
+
+### Deploy to Vercel
+
+#### Option 1: Deploy via Vercel Dashboard
+1. Push your code to GitHub
+2. Go to [Vercel](https://vercel.com) and sign in
+3. Click "New Project" and import your repository
+4. Vercel will automatically detect Vite and configure the build settings
+5. Click "Deploy"
+
+#### Option 2: Deploy via Vercel CLI
+1. Install Vercel CLI:
+```bash
+npm i -g vercel
+```
+
+2. Deploy:
+```bash
+vercel
+```
+
+3. For production deployment:
+```bash
+vercel --prod
+```
+
+### Vercel Configuration
+The project includes `vercel.json` with:
+- Automatic SPA routing (all routes redirect to `index.html`)
+- Optimized caching for static assets
+- Build and dev command configuration
+
+### Environment Variables
+Currently, no environment variables are required. If you need to add any:
+1. Add them in the Vercel dashboard under Project Settings → Environment Variables
+2. Or use `.env.local` for local development (already in `.gitignore`)
+
 ## 🤖 GitHub Copilot Support
 
 This project is optimized for use with GitHub Copilot! Check out our comprehensive guide:
