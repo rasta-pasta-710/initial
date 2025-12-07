@@ -60,7 +60,9 @@ Before using GitHub Copilot with this project, ensure you have:
 
 ### Configuration for This Project
 
-Copilot will automatically use the instructions defined in `.github/copilot-instructions.md` to understand our project's patterns and conventions. No additional configuration needed!
+This project includes detailed coding patterns and conventions in `.github/copilot-instructions.md`. While standard GitHub Copilot doesn't automatically read this file, it serves as valuable documentation for contributors and is used by GitHub Copilot Workspace agents to understand project-specific patterns.
+
+**Pro Tip:** Reference the `.github/copilot-instructions.md` file when asking Copilot Chat questions to get responses aligned with our project conventions.
 
 ## Basic Prompts & Examples
 
@@ -384,4 +386,4 @@ For more information about GitHub Copilot:
 
 **Happy Coding with Copilot! 🚀**
 
-For project-specific coding conventions and patterns, refer to `.github/copilot-instructions.md`.
+For project-specific coding conventions and patterns, see `.github/copilot-instructions.md`. While Copilot doesn't automatically read this file, it's an excellent reference for understanding our project's standards and can be referenced in Copilot Chat conversations.
