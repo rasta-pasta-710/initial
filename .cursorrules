@@ -1,0 +1,53 @@
+# Cursor Rules for Portfolio Website
+
+## Project Context
+Modern portfolio website using React 18, TypeScript, Vite, Tailwind CSS, and Framer Motion.
+
+## Code Style
+- Use functional components with TypeScript
+- Strict TypeScript mode enabled
+- Tailwind CSS for all styling (no inline styles)
+- Framer Motion for animations
+- Mobile-first responsive design
+
+## Component Patterns
+- All section components use IntersectionObserver for scroll detection
+- Props interfaces must be defined for all components
+- Use `viewport={{ once: true }}` for scroll animations
+- Section IDs match component names (lowercase)
+
+## Styling
+- Use Tailwind utility classes exclusively
+- Primary color: `primary-400` to `primary-600`
+- Background: `gray-900` (main), `gray-800` (sections)
+- Text: `gray-100` (primary), `gray-300` (secondary)
+- Use `gradient-text` class for accent text
+
+## Animation Guidelines
+- Animation duration: 0.3-0.6 seconds
+- Use `staggerChildren` for sequential animations
+- Hover effects: scale(1.05) with smooth transitions
+- Scroll animations: fade in + slide up
+
+## File Structure
+- Components in `src/components/`
+- PascalCase for component files
+- One component per file
+- Export default for components
+
+## Best Practices
+- Always define TypeScript interfaces for props
+- Use meaningful variable names
+- Keep functions small and focused
+- Add comments for complex logic
+- Maintain accessibility (ARIA labels, semantic HTML)
+- Test responsive design on mobile/tablet/desktop
+
+## When Adding Features
+- Follow existing patterns
+- Update TypeScript types
+- Maintain design consistency
+- Ensure mobile responsiveness
+- Add smooth animations
+- Test in multiple browsers
+
