@@ -48,6 +48,19 @@ npm run build
 
 The build artifacts will be stored in the `dist/` directory.
 
+## 🤖 GitHub Copilot Support
+
+This project is optimized for use with GitHub Copilot! Check out our comprehensive guide:
+
+📘 **[Copilot Usage Guide](COPILOT_USAGE.md)** - Learn how to leverage Copilot for this project
+
+The guide includes:
+- Setup instructions and prerequisites
+- Basic and advanced prompt examples
+- Best practices specific to our tech stack
+- Common workflows and limitations
+- Links to official documentation
+
 ## 📝 Customization
 
 ### Update Personal Information
